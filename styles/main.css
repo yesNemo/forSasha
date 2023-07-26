@@ -1,0 +1,144 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.footer {
+  background-color: #705a66;
+}
+
+.footer-img {
+  width: 255px;
+  height: 201px;
+}
+
+.footer-wrapper {
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Выравнивание элементов по вертикали */
+  align-items: center; /* Выравнивание элементов по горизонтали */
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+@media screen and (min-width: 768px) {
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: inherit;
+    padding-top: 72px;
+    padding-bottom: 105px;
+  }
+}
+
+.networks-list {
+  display: flex;
+  margin-bottom: 31px;
+}
+@media screen and (max-width: 768px) {
+  .networks-list {
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+}
+
+.info-items {
+  color: white;
+}
+
+.info-items:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.networks-icon {
+  width: 34px;
+  height: 34px;
+  color: white;
+}
+
+.networks-text {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .networks-text {
+    text-align: center;
+  }
+}
+
+.networks-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.networks-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.phone-title {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .phone-title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.flex-for-mobile {
+  display: flex;
+  align-items: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .flex-for-mobile {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-logo {
+    margin-bottom: 40px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
